@@ -1,0 +1,174 @@
+.Button{
+    background-color: red;
+    border-radius: 50px;
+    height: 30px;
+    color: white;
+    border-color: red;
+    font-family: "Lilita One", sans-serif;
+    box-shadow: none;
+}
+
+body{
+    font-family: "Lilita One", sans-serif;
+    margin: 0;
+    color: rgb(90, 48, 48);
+    background-color: wheat;
+}
+
+.left > img{
+    height: 30px;
+}
+
+.top-bar{
+    margin-left: 0px;
+    width: 1710px;
+    color: black;
+    font-weight: 100;
+    font-style: normal;
+    font-family: "Lilita One", sans-serif;
+    border-color: red;
+    background-color: wheat;
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid ;
+}
+
+.left{
+    background: none;
+    border: none;
+}
+/*   Left side buttons*/
+
+.left-side{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.mid{
+
+    margin-left: 690px;
+}
+
+.right{
+    border-color: red;
+    margin-top: 10px; 
+     margin-left: 330px;
+} 
+
+.menu-btn{
+    border-radius: 70px;
+    height: 60px;
+    width: 180px;
+}
+.right{
+    color: black;
+    border-color: red;
+}
+
+.menu-button1 {
+    background-color: red;
+    border-color: red;
+    color:white;
+}
+.menu-button2{
+    border-color: red;
+    margin-left: 10px;
+    color:red;
+}
+
+.Order-menu{
+    display: inline-flex;
+}
+
+.menu-btn{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    
+}
+.text .h1{
+    font-family: "Lilita One", sans-serif;
+    margin-left: 30px;
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(90, 48, 48);
+    font-style: normal;
+}
+
+.Order-menu{
+
+    margin-left: 300px;
+}
+
+.top-btn{
+    color: black;
+    font-weight: 100;
+    font-style: normal;
+    font-family: "Lilita One", sans-serif;
+    border-color: red;
+}
+
+.Options{
+    margin-left: -500px;
+    height: 500px;
+    border-radius: 20px;
+    width:600px;
+    background-color: white;
+}
+
+.line-1 ,.line-2{
+    display: inline-flex;
+    
+}
+
+.line-2{
+    margin-top: 100px;
+}
+
+.option-2{
+  margin-left: 130px;
+}
+
+.first{
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.one{
+    margin-left: 200px;
+}
+
+.hamburger-box {
+    margin-left: 105px;
+}
+
+.Order-menu{
+    margin-top: 100px;
+}
+
+.right{
+    margin-top: 10px;
+}
+
+.menu-right{
+    margin-left: 150px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.bottom-bar{
+    display: inline-flex;
+}
+
+.bottom-bar{
+    border-top: 1px solid black;
+    border:  length 2000px ;
+    height: 50px;
+    width: 500px;
+}

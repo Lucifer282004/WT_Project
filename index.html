@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Burger King</title>
+    </head>
+    <link rel="Stylesheet" href="./style.css">
+    <link rel="Stylesheet" href="./hamburgers.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <body>
+        <div class="top-bar">
+            
+            <div class="left-side">
+                <button class="hamburger hamburger--emphatic" type="button" onclick=>
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
+        
+                  <script>
+
+                    var hamburger = document.querySelector(".hamburger");
+                    hamburger.addEventListener("click", function() {
+                      hamburger.classList.toggle("is-active");
+                    });
+                  </script>
+            </div>
+            
+            <div class="mid">
+                
+                <img src="./logo.jpeg" style="height:50px; width:50px">
+            </div>
+
+            <div class="right">
+                <button type="button" class="Button" class="top-btn " onclick="location.href='Login Page/1.html';">Sign Up/Sign In</button>
+                <button type="button" class="Button" class="top-btn"> 🛒View Cart</button>
+            </div>
+            <hr>
+
+        </div>
+
+        <div class="Order-menu">    
+
+            <div class="menu-left">
+                <h1 class="text">Start your<br> BK<sup>®</sup> order.</h1>
+
+                <button type="button" class="menu-button1 menu-btn">🛍️Order Pickup</button>
+                <button type="button" class="menu-button2 menu-btn">🛵Order Delivery</button>
+            </div>
+
+            <div class="menu-right">
+                <img src="./main_GIF.gif" style="height:350px;width:590px">
+            </div>
+        </div>
+
+        <div class="mid">
+
+            <div class="line-1">
+                <div class="Options" class="option-1">
+                    <div class="first">
+                        <img src="./1.jpeg" style="height:300px; border-top-left-radius: 20px;border-top-right-radius: 20px; margin-top: -40px;">
+                        <h1>School’s back and so are the cravings!</h1>
+                        <p>Gear up for the school year with a meal that rules as much as you do. Get a FREE King Jr.™ Meal with a $10+ purchase.</p>
+                    </div>
+                </div>
+    
+                <div class="Options option-2">
+                    <div class="second">
+                        <img src="./2.jpeg" style="height:300px; border-top-left-radius: 20px;border-top-right-radius: 20px">
+                        <h1>Feel the heat with 4 new bundles!</h1>
+                    </div>
+    
+                </div>
+            </div>
+
+            <div class="line-2">
+                <div class="Options" class="option-1">
+                    <div class="first">
+                        <img src="./3.jpeg" style="height:300px; border-top-left-radius: 20px;border-top-right-radius: 20px; margin-top: -40px;">
+                        <h1>4 items, 3 choices—for $5!</h1>
+                    </div>
+                </div>
+    
+                <div class="Options option-2">
+                    <div class="second">
+                        <img src="./4.jpeg" style="height:300px; border-top-left-radius: 20px;border-top-right-radius: 20px">
+                        <h1>$3 OFF any $20+ BK® delivery order!</h1>
+                    </div>
+    
+                </div>
+            </div>
+
+            
+        </div>
+
+        <footer style="text-align: center; background-color: aliceblue; ">Created By:- Shreyansh  and  Krisha</footer>
+
+    </body>
+</html>
